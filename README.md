@@ -483,8 +483,29 @@ Ejemplo de lo ultimo
 El icono del boton es justamente el logo oficial del festival, que cuando se abre, hace un giro de 90 grados y se "convierte" en una X, indicando que cuando se pulsa, se cierra el menu y vuelve a aparecer el logo
 
 ---
+La clase que usa cuando pulsas el boton pasar a ser el "**.site-menu**"" 
+
+```
+.menu-btn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 45px; 
+    height: 45px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 4000; 
+    transition: transform 0.3s ease; 
+}
 
 
+
+```
+Ya tendria, para darle mas dinamismo, un activa  o un hover (background)
 ---
 
 El menu con CSS se mueve con el side-menu 
